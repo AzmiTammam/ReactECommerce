@@ -6,8 +6,8 @@
 }
 .featured-games-title{
     text-align: center;
-    font-size: 4rem;
-    margin-top: 5rem;
+    font-size: 30px;
+    padding-top: 70px;
 }
 .game-container-home{
     background-color: #415161;
@@ -16,14 +16,11 @@
     box-shadow: 5px 5px 5px;
     justify-self: center;
     text-align: center;
-    transition: 0.5s;
     margin-bottom: 3rem;
-}
-.game-container-home:hover{
-    transform: scale(1.03);
+    cursor: pointer;
 }
 .game-photo-container img{
-    width: 350px;
+    width: 300px;
     border-radius: 5px;
 }
 .game-title-home{

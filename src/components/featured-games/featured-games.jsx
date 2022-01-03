@@ -7,7 +7,7 @@ function FeaturedGames() {
     return (
         <div>
             <div>
-                <h1 className='featured-games-title'>Most Selling Games</h1>
+                <h1 className='featured-games-title'>Products you may also like</h1>
                 <hr />
             </div>
             <div className='games-container-home'>

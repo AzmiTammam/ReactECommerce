@@ -73,7 +73,7 @@ function Cart({setLoggedUser}) {
                     <span>Product</span>
                 </div>
                 <div className="header-block">
-                    <span>Title</span>
+                    <span>Name</span>
                 </div>
                 <div className="header-block">
                     <span>Quantity</span>
@@ -82,7 +82,7 @@ function Cart({setLoggedUser}) {
                     <span>Price</span>
                 </div>
                 <div className="header-block">
-                    <span>Remove</span>
+                    <span>Delete</span>
                 </div>
             </div> : null }
             
@@ -92,8 +92,8 @@ function Cart({setLoggedUser}) {
                 </div>}
                 {user.cartItems.map(element => <CartItem key={element.id} cartItem={element} removeItem={removeItem} decreaseQuantity={decreaseQuantity} addToCart={addToCart}/>)}
                 {user.cartItems.length ? <div className="total">
-                <span>Total: ${user.cartItems.reduce((total,item) => total + item.quantity * item.price, 0)}</span>
-                <Link to="/checkout"><button type="button" className="confirm-buy">Go to Checkout</button></Link>
+                <span>Total Price: ${user.cartItems.reduce((total,item) => total + item.quantity * item.price, 0)}</span>
+                <Link to="/checkout"><button type="button" className="confirm-buy">Checkout</button></Link>
             </div> : ""}
         </div>
     )

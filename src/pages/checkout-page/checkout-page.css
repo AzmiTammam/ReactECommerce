@@ -1,12 +1,11 @@
 .checkout-page-container{
     display: grid;
     grid-template-areas: 
-    "checkout-form coupon-form";
+    "checkout-form";
 }
 @media screen and (max-width: 1110px){
     .checkout-page-container{
     grid-template-areas: 
     "checkout-form"
-    "coupon-form";
     }
   }

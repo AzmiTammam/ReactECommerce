@@ -1,69 +1,68 @@
 const games = [
-    {
-      id: 1,
-      title: "The Witcher 3",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/witcher.png",
-      price: 50,
-    },
-    {
-      id: 2,
-      title: "RDR2",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/red.png",
-      price: 60,
-    },
-    {
-      id: 3,
-      title: "GTA V",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/gta.png",
-      price: 40,
-    },
-    {
-      id: 4,
-      title: "Assassin's Creed Odyssy",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/ody.png",
-      price: 45,
-    },
-    {
-      id: 5,
-      title: "Assassin's Creed Origins",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/origins.png",
-      price: 35,
-    },
-    {
-      id: 6,
-      title: "Assassin's Creed Syndicate",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/synd.png",
-      price: 25,
-    },
-    {
-      id: 7,
-      title: "Assassin's Creed Valhala",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/val.png",
-      price: 55,
-    },
-    {
-      id: 8,
-      title: "Tekken 7",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-      image: "/images/tekken.png",
-      price: 45,
-    },
-  ];
-  
-  export default games;
-  
+  {
+    id: 1,
+    title: "Soccer",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/soccer.jpg",
+    price: 22,
+  },
+  {
+    id: 2,
+    title: "Softball",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/Softball.jpg",
+    price: 35,
+  },
+  {
+    id: 3,
+    title: "Basketball",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/basketball.jpg",
+    price: 26,
+  },
+  {
+    id: 4,
+    title: "Golf",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/golf.jpg",
+    price: 99,
+  },
+  {
+    id: 5,
+    title: "Volleyball",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/Volleyball.jpg",
+    price: 60,
+  },
+  {
+    id: 6,
+    title: "Football",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/football.jpg",
+    price: 49,
+  },
+  {
+    id: 7,
+    title: "Baseball",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/Baseball.jpg",
+    price: 25,
+  },
+  {
+    id: 8,
+    title: "Tennis",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    image: "/images/tennis.JPG",
+    price: 15,
+  },
+];
+
+export default games;

@@ -201,12 +201,7 @@ let navigate = useNavigate()
                     defaultValue={firstName}
                     ref={firstNameInput}
                   />
-                  <button className="done-btn" onClick={changeFirstNameValue}>
-                    Done
-                  </button>
-                  <button className="done-btn" onClick={changeFirstName}>
-                    X{" "}
-                  </button>
+
                 </div>
               </div>
               <div
@@ -216,9 +211,7 @@ let navigate = useNavigate()
                 <label>First name</label>
                 <div className="edit-positioning">
                   <div className="input-field">{firstName}</div>
-                  <button className="edit-btn" onClick={changeFirstName}>
-                    Edit
-                  </button>
+
                 </div>
               </div>
             </div>
@@ -234,12 +227,7 @@ let navigate = useNavigate()
                     defaultValue={lastName}
                     ref={lastNameInput}
                   />
-                  <button className="done-btn" onClick={changeLastNameValue}>
-                    Done
-                  </button>
-                  <button className="done-btn" onClick={changeLastName}>
-                    X{" "}
-                  </button>
+
                 </div>
               </div>
 
@@ -250,9 +238,7 @@ let navigate = useNavigate()
                 <label>Last name</label>
                 <div className="edit-positioning">
                   <div className="input-field">{lastName}</div>
-                  <button className="edit-btn" onClick={changeLastName}>
-                    Edit
-                  </button>
+
                 </div>
               </div>
             </div>
@@ -265,12 +251,7 @@ let navigate = useNavigate()
                 <label>Email</label>
                 <div className="edit-positioning">
                   <input type="text" defaultValue={email} ref={emailInput} />
-                  <button className="done-btn" onClick={changeEmailValue}>
-                    Done
-                  </button>
-                  <button className="done-btn" onClick={changeEmail}>
-                    X
-                  </button>
+
                 </div>
               </div>
               <div
@@ -280,9 +261,7 @@ let navigate = useNavigate()
                 <label>Email</label>
                 <div className="edit-positioning">
                   <div className="input-field">{email}</div>
-                  <button className="edit-btn" onClick={changeEmail}>
-                    Edit
-                  </button>
+
                 </div>
               </div>
             </div>
@@ -300,12 +279,7 @@ let navigate = useNavigate()
                     ref={passwordInput}
                   />
                   {/* TO DO SHOW/ HIDE PASSWORD */}
-                  <button className="done-btn" onClick={changePasswordValue}>
-                    Done
-                  </button>
-                  <button className="done-btn" onClick={changePassword}>
-                    X{" "}
-                  </button>
+
                 </div>
               </div>
               <div
@@ -315,9 +289,7 @@ let navigate = useNavigate()
                 <label>Password</label>
                 <div className="edit-positioning">
                   <div className="input-field">{password}</div>
-                  <button className="edit-btn" onClick={changePassword}>
-                    Edit
-                  </button>
+
                 </div>
               </div>
             </div>
@@ -327,10 +299,6 @@ let navigate = useNavigate()
           <table className="user-reservations" >
             <thead>
               <tr>
-                <th>Technician</th>
-                <th>Date</th>
-                <th>Start Time</th>
-                <th>End Time</th>
                 <th>Total Price</th>
                 <th>Remove</th>
               </tr>

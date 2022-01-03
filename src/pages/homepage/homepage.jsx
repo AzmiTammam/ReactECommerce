@@ -8,7 +8,6 @@ function HomePage() {
         <div>
             <HeroImage />
             <FeaturedGames />
-            <FeaturedRooms />
         </div>
     )
 }

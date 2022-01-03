@@ -6,13 +6,11 @@ function HeroImage() {
     return (
         <div class="home-container">
         <div class="home-left">
-          <h5>Best Games in The Market</h5>
-          <h1>Huge Sale On Your Favorite Game</h1>
-          <p>Check Our store with over 1000+ game waiting for you to play</p>
-          <Link to="/games"><button>GET STARTED <i aria-hidden="true" class="fas fa-angle-right"></i></button></Link>
+          <h1>Play ball your way</h1>
+          <Link to="/sports"><button>Buy now!</button></Link>
         </div>
         <div class="home-right">
-            <img src="images/controller.png" alt="controller" />
+            <img src="https://i5.walmartimages.com/asr/0e13ecac-56b8-4d1a-ac06-d688b1b289d0_1.6d78ca1b31bf72db4dbe3386ca830c9a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" width={350} alt="controller" />
         </div>
     </div>
     )
