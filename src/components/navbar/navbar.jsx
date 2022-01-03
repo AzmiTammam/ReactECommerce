@@ -44,7 +44,7 @@ const NavBar = (props) => {
               </Link>
             </li>
             <li>
-              <Link to="/games">Games</Link>
+              <Link to="/games">Sports</Link>
             </li>
             <li>
               <Link to="/rooms">Rooms</Link>

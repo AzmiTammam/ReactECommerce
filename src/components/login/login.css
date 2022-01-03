@@ -1,54 +1,55 @@
-.login-form-container form{
-    display: grid;
-    grid-template-areas: 
+.login-form-container form {
+  display: grid;
+  grid-template-areas:
     "input-one"
     "input-two"
     "button";
-    background-color: #f3f3f3;
-    padding: 2rem;
-    margin: 5rem auto;
-    align-items: center;
-    height: 50rem;
-    width: 40%;
-    border-radius: 5px;
+  background-color: #f3f3f3;
+  padding: 2rem;
+  margin: 5rem auto;
+  align-items: center;
+  height: 50rem;
+  width: 30%;
+  border-radius: 5px;
 }
 
-    .login-form input{
-        width: 100%;
-        border: none;
-        font-size: 2rem;
-        height: 8rem;
-        border-radius: 5px;
-        background-color: white;
-        padding: 1rem;
-    }
-    .login-btn{
-        background-color: rgb(7, 207, 7);
-        border: none;
-        color: white;
-        cursor: pointer;
-        margin-top: 1rem;
-        font-size: 2rem;
-        height: 8rem;
-        border-radius: 5px;
-    }
-    .login-btn:hover{
-        background-color: rgb(10, 175, 10);
-    }
-    .sign-heading{
-        margin-bottom: 2rem;
-        text-align: left;
-        font-size: 2rem;
-    }
-    .dont-have-account{
-        font-size: 2rem;
-    }
 
-    @media screen and (max-width: 750px) {
-        .login-form-container form{
-            width: 80%;
-        }
-        .dont-have-account{
-            font-size: 1.5rem;
-        }
-    }
+.login-form input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 10px;
+  outline: none !important;
+}
+.login-btn {
+  background-color: #0071DC;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  height: 5rem;
+  border-radius: 5px;
+
+}
+
+.sign-heading {
+  margin-bottom: 2rem;
+  text-align: center !important;
+  font-size: 26px !important;
+}
+.dont-have-account {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 750px) {
+  .login-form-container form {
+    width: 80%;
+  }
+  .dont-have-account {
+    font-size: 1.5rem;
+  }
+}
