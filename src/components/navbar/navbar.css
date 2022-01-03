@@ -39,7 +39,12 @@
 
   color: #333333 !important;
 }
-
+.item-count {
+  position: absolute;
+  font-size: 13px;
+  font-weight: bold;
+  bottom: 9px;
+}
 .header .burgerMenu {
   display: none;
   color: white;
@@ -47,16 +52,11 @@
   margin-right: 0.3rem;
   cursor: pointer;
 }
-.header .shoppingCart {
+
+
+.sign-out {
   display: flex;
-  width: 45px;
-  height: 45px;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  top: 2rem;
-  right: 2.5rem;
+  text-align: center;
 }
 .topIcon {
   font-size: 1.5rem;
@@ -68,17 +68,18 @@
   width: 26px;
   height: 26px;
 }
-.item-count {
-  position: absolute;
-  font-size: 13px;
-  font-weight: bold;
-  bottom: 9px;
-}
-.sign-out {
-  display: flex;
-  text-align: center;
-}
 
+.header .shoppingCart {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 2rem;
+  right: 2.5rem;
+}
 @media screen and (max-width: 790px) {
   .header {
     position: relative;
