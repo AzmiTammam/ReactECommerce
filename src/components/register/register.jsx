@@ -68,16 +68,16 @@ const Register = (props) => {
             <form onSubmit={handleSubmit} className='register-form'>
                 <h1 className="sign-heading">Register</h1>
                 <input onChange={handleChange} value={registerInfo.firstName} placeholder="First Name" name="firstName" type="text" />
-                {submitted && (registerInfo.firstName.length <= 4 || !registerInfo.firstName) ? <span className="message">Please enter a first name with length of 4 characters or more</span> : null}
+                {submitted && (registerInfo.firstName.length <= 1 || !registerInfo.firstName) ? <span className="message"></span> : null}
 
                 <input onChange={handleChange} value={registerInfo.lastName} placeholder="Last Name" type="text" name="lastName" />
-                {(submitted && (registerInfo.lastName.length<=4 || !registerInfo.lastName)) ? <span className="message">Please enter a last name with length of 4</span> : null}
+                {(submitted && (registerInfo.lastName.length <= 1 || !registerInfo.lastName)) ? <span className="message"></span> : null}
 
                 <input onChange={handleChange} value={registerInfo.email} placeholder="Email" type="email" name="email" />
                 {(submitted && !registerInfo.email) ? <span className="message">Please enter an email name</span> : null}
 
                 <input onChange={handleChange} value={registerInfo.password} placeholder="Password" type="password" name="password" />
-                {(submitted && (registerInfo.password.length <= 4 || !registerInfo.password)) ? <span className="message">Please enter a password with length of 4</span> : null}
+                {(submitted && (registerInfo.password.length <= 3 || !registerInfo.password)) ? <span className="message">Please enter a password with length of 4</span> : null}
 
                 <input onChange={handleChange} value={registerInfo.confirmPassword} placeholder="Confirm Password" type="password" name="confirmPassword" />
                 {(submitted && (!registerInfo.confirmPassword || registerInfo.password !== registerInfo.confirmPassword)) ? <span className="message">Please make sure the passwords match</span> : null}
