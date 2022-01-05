@@ -182,14 +182,11 @@ let navigate = useNavigate()
   return (
     <main className="main-cont2" id="form">
       <div className="container2">
-        <div className="header2">
-          <h2>Your Profile </h2>
-          <button className="logout-btn" onClick={handleLogout}>Logout</button>
-        </div>
+
         <div className="double-container">
           <div className="field-container">
             <div className="div-container">
-              <h2>Information</h2>
+              <h2 classname="yourInfo">Your info:</h2>
               <div
                 className="centering-div"
                 style={{ display: firstNameState ? "block" : "none" }}
@@ -208,7 +205,6 @@ let navigate = useNavigate()
                 className="centering-div"
                 style={{ display: firstNameState ? "none" : "block" }}
               >
-                <label>First name</label>
                 <div className="edit-positioning">
                   <div className="input-field">{firstName}</div>
 
@@ -220,7 +216,6 @@ let navigate = useNavigate()
                 className="centering-div"
                 style={{ display: lastNameState ? "block" : "none" }}
               >
-                <label>Last name</label>
                 <div className="edit-positioning">
                   <input
                     type="text"
@@ -235,7 +230,6 @@ let navigate = useNavigate()
                 className="centering-div"
                 style={{ display: lastNameState ? "none" : "block" }}
               >
-                <label>Last name</label>
                 <div className="edit-positioning">
                   <div className="input-field">{lastName}</div>
 
@@ -248,7 +242,6 @@ let navigate = useNavigate()
                 className="centering-div"
                 style={{ display: emailState ? "block" : "none" }}
               >
-                <label>Email</label>
                 <div className="edit-positioning">
                   <input type="text" defaultValue={email} ref={emailInput} />
 
@@ -258,7 +251,6 @@ let navigate = useNavigate()
                 className="centering-div"
                 style={{ display: emailState ? "none" : "block" }}
               >
-                <label>Email</label>
                 <div className="edit-positioning">
                   <div className="input-field">{email}</div>
 
@@ -266,41 +258,13 @@ let navigate = useNavigate()
               </div>
             </div>
 
-            <div className="div-container">
-              <div
-                className="centering-div"
-                style={{ display: passwordState ? "block" : "none" }}
-              >
-                <label>Password</label>
-                <div className="edit-positioning">
-                  <input
-                    type="password"
-                    defaultValue={password}
-                    ref={passwordInput}
-                  />
-                  {/* TO DO SHOW/ HIDE PASSWORD */}
-
-                </div>
-              </div>
-              <div
-                className="centering-div"
-                style={{ display: passwordState ? "none" : "block" }}
-              >
-                <label>Password</label>
-                <div className="edit-positioning">
-                  <div className="input-field">{password}</div>
-
-                </div>
-              </div>
-            </div>
           </div>
 <div className="test-div">
-<h2 >Reservations</h2>
+<h2 ></h2>
           <table className="user-reservations" >
             <thead>
               <tr>
-                <th>Total Price</th>
-                <th>Remove</th>
+
               </tr>
             </thead>
             <tbody>

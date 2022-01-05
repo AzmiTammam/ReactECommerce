@@ -10,7 +10,9 @@
     margin-bottom: 5em;
   }
   
-  
+  .div-container h2 {
+    font-size: 25px !important;
+  }
   .header2 {
     border-bottom: 1px solid #f0f0f0;
     background-color: #f7f7f7;
