@@ -8,7 +8,6 @@ function FeaturedGames() {
         <div>
             <div>
                 <h1 className='featured-games-title'>Products you may also like</h1>
-                <hr />
             </div>
             <div className='games-container-home'>
             {games.filter((game,index) => index <3).map((game) => (

@@ -1,21 +1,14 @@
 .detailed-game-container{
     display: grid;
     grid-template-areas: 
-    "game-photo-container-detailed price-and-btn-detailed";
+    "price-and-btn-detailed game-photo-container-detailed";
     align-items: center;
     width: 80%;
     margin: 5rem auto;
-    background-color: #415161;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-    /* height: 507.2px; */
 }
-.game-photo-container-detailed{
-    grid-area: "game-photo-container-detailed";
-    width: 400px;
-    overflow: hidden;
-    transition: 0.5s;
-}
+
 .game-photo-container-detailed img:hover{
     transform: scale(1.05);
     border-radius: 5px;
@@ -38,25 +31,22 @@
     font-weight: 300;
 }
 .game-price-detailed{
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: block;
-    margin-top: 1rem;
+    margin-top: 50px;
 }
 .buy-game-btn{
     text-decoration: none;
     color: white;
-    background-color: #F80000;
+    background-color: #0071DC;
     border: none;
-    padding: 0.6em;
+    padding: 7px 75px;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 15px;
     cursor: pointer;
     margin: 2rem 0;
 }
-.buy-game-btn:hover{
-    background-color: #b60909;
-    
-}
+
 @media screen and (max-width: 970px){
     .detailed-game-container{
         grid-template-areas: 

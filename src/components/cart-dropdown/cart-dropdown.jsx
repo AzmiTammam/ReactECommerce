@@ -9,10 +9,10 @@ const CartDropdown = (props) => {
     return (
         <div className="cart-dropdown">
         <div className="cart-items" >
-            {user.cartItems.length ? user.cartItems.map(cartItem => <CartDropDownItem  key={cartItem.id} item={cartItem} />) : <span className="empty-message">Your cart is empty</span>}
+            {user.cartItems.length ? user.cartItems.map(cartItem => <CartDropDownItem  key={cartItem.id} item={cartItem} />) : <span className="empty-message">Noting in Cart</span>}
         </div>
         <Link to="/cart" onClick={props.handleHidden} className='go-to-cart'><button type="button">
-            Go To Cart
+            Cart
         </button></Link>
     </div>
     )

@@ -41,9 +41,11 @@
 }
 .item-count {
   position: absolute;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
-  bottom: 9px;
+  bottom: 6px;
+  right: 45px;
+  color: white!important;
 }
 .header .burgerMenu {
   display: none;
@@ -67,6 +69,9 @@
 .shopping-icon {
   width: 26px;
   height: 26px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 .header .shoppingCart {

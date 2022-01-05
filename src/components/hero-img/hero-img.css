@@ -2,38 +2,11 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "home-left home-right";
-    justify-content: space-around;
     align-items: center;
     text-align: center;
-
-}
-.home-left h5{
-    font-size: 17px;
-    padding: 3rem 0 0;
 }
 .home-left h1{
-    font-size: 50px;
-    line-height: 7rem;
-    padding: 3rem 0;
-}
-.home-left p{
-    font-size: 15px;
-    padding-bottom: 3rem;
-}
-
-.home-left button{
-    color: white;
-    background-color: #0071DC;
-    border: none;
-    padding: 0.6em;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
-    width: 45%;
-    cursor: pointer;
-}
-.home-left button:hover{
-    background-color: #0071DC;
+    font-size: 55px;
 }
 .home-right{
     grid-area: home-right;

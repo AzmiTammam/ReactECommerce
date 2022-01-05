@@ -8,16 +8,17 @@
     text-align: center;
     font-size: 30px;
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 .game-container-home{
-    background-color: #415161;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-    box-shadow: 5px 5px 5px;
     justify-self: center;
     text-align: center;
     margin-bottom: 3rem;
     cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 25px 30px;
 }
 .game-photo-container img{
     width: 300px;
@@ -33,7 +34,7 @@
 .price-and-btn a {
     text-decoration: none;
     color: white;
-    background-color: #F80000;
+    background-color: #0071DC;
     border: none;
     padding: 0.6em;
     border-radius: 5px;
@@ -43,17 +44,12 @@
 .price-and-btn button{
     text-decoration: none;
     color: white;
-    background-color: #F80000;
+    background-color: #0071DC;
     border: none;
     font-size: 1.5rem;
     cursor: pointer; 
 }
-.price-and-btn a:hover{
-    background-color: #b60909;
-}
-.price-and-btn a:hover button {
-    background-color: #b60909;
-}
+
 .price-and-btn span{
     font-size: 1.5rem;
     font-weight: 900;
