@@ -19,7 +19,7 @@ function FeaturedGames() {
             <div className='price-and-btn'>
               <span className="game-price-home">Price: ${game.price}</span>
               <Link to={`/games/${game.title}`}><button className="view-game-btn">
-              View Game
+              Buy Now!
             </button></Link>
             </div>
           </div>
