@@ -20,7 +20,7 @@ function GamesShop() {
         <div className='price-and-btn'>
           <span className="game-price-home">Price: ${game.price}</span>
           <Link to={`/games/${game.title}`}><button className="view-game-btn">
-          View Game
+          Add to cart
         </button></Link>
         </div>
       </div>
