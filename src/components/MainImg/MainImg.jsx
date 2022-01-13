@@ -1,8 +1,7 @@
 import React from 'react'
-import "./hero-img.css"
-import {Link} from "react-router-dom"
+import "./MainImg.css"
 
-function HeroImage() {
+function MainImg() {
     return (
         <div class="home-container">
         <div class="home-left">
@@ -15,4 +14,4 @@ function HeroImage() {
     )
 }
 
-export default HeroImage
+export default MainImg

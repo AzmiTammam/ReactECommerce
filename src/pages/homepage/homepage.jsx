@@ -1,11 +1,11 @@
 import React from 'react'
 import FeaturedGames from '../../components/FeaturedProduct/FeaturedProduct'
-import HeroImage from '../../components/hero-img/hero-img'
+import MainImg from '../../components/MainImg/MainImg'
 
 function HomePage() {
     return (
         <div>
-            <HeroImage />
+            <MainImg />
             <FeaturedGames />
         </div>
     )
