@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ReactComponent as ShoppingIcon } from "../../assets/shopping-bag.svg";
 import CartDropdown from "../CartDropdown/CartDropdown";
 
-const NavBar = (props) => {
+const Navbar = (props) => {
   const [navBarActive, setNavBarActive] = useState(false);
   const [hidden, setHidden] = useState(true);
   const [hiddenCart, setHiddenCart] = useState(true);
@@ -83,4 +83,4 @@ const NavBar = (props) => {
   );
 };
 
-export default NavBar;
+export default Navbar;

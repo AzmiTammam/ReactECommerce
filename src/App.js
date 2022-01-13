@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import { Route, Routes } from "react-router-dom";
-import NavBar from './components/navbar/navbar';
+import Navbar from './components/Navbar/navbar';
 import HomePage from './pages/homepage/homepage';
 import Footer from './components/footer/footer';
 import LoginPage from "./pages/loginPage/loginPage"
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-     <NavBar loggedUser={loggedUser} setLoggedUser={setLoggedUser}/>
+     <Navbar loggedUser={loggedUser} setLoggedUser={setLoggedUser}/>
      <Routes>
      <Route exact path="/" element={<HomePage />} />
      <Route exact path="/login" element={<LoginPage setLoggedUser={setLoggedUser} />} />
