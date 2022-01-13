@@ -51,6 +51,7 @@ function DetailedGame({games,setLoggedUser}) {
           Add to Cart
         </button>
         </div>
+        
           </div>
         ))}
     </div>

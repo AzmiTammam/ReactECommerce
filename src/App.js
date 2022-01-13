@@ -9,7 +9,11 @@ import RegisterPage from "./pages/registerPage/registerPage"
 import GamesPage from './pages/shopPage/shopPage';
 import DetailedGame from './components/ProductInfo/ProductInfo';
 import games from './data/Products/dataArray';
+import rooms from './data/rooms/rooms';
+import RoomsPage from './pages/rooms-page/rooms-page';
+
 import CartPage from './pages/cartPage/cartPage';
+import DetailedRoom from './components/detailed-room/detailed-room';
 import CheckoutPage from './pages/checkoutPage/checkoutPage';
 import Userprofile from './pages/ProfileUsers/ProfileUsers';
 
@@ -25,7 +29,9 @@ function App() {
      <Route exact path="/login" element={<LoginPage setLoggedUser={setLoggedUser} />} />
      <Route exact path="/register" element={<RegisterPage setLoggedUser={setLoggedUser} />} />
      <Route exact path="/sports" element={<GamesPage />} />
+     <Route exact path="/rooms" element={<RoomsPage />} />
      <Route exact path="/games/:title" element={<DetailedGame games={games} setLoggedUser={setLoggedUser}/>} />
+     <Route exact path="/rooms/:title" element={<DetailedRoom rooms={rooms}/>} />
      <Route exact path="/cart" element={<CartPage setLoggedUser={setLoggedUser} />} />
      <Route exact path="/checkout" element={<CheckoutPage setLoggedUser={setLoggedUser} />} />
      <Route exact path="/profile" element={<Userprofile setLoggedUser={setLoggedUser} loggedUser={loggedUser} />} />
