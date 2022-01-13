@@ -3,6 +3,9 @@ footer {
   color: rgb(255, 255, 255);
   line-height: 1.5;
 }
+ul {
+  list-style: none;
+}
 footer a {
   text-decoration: none;
   color: #eee;
