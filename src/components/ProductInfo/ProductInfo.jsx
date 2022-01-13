@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import "./DataProduct.css"
+import "./ProductInfo.css"
 import { useParams, useNavigate } from "react-router-dom";
 
 function DetailedGame({games,setLoggedUser}) {

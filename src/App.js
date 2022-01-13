@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 import LoginPage from "./pages/loginPage/loginPage"
 import RegisterPage from "./pages/registerPage/registerPage"
 import GamesPage from './pages/shopPage/shopPage';
-import DetailedGame from './components/DataProduct/DataProduct';
+import DetailedGame from './components/ProductInfo/ProductInfo';
 import games from './data/Products/dataArray';
 import CartPage from './pages/cartPage/cartPage';
 import CheckoutPage from './pages/checkoutPage/checkoutPage';
