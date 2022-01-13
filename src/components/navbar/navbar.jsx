@@ -45,9 +45,6 @@ const NavBar = (props) => {
           <li>
             <Link to="/sports">Sports</Link>
           </li>
-          <li>
-            <Link to="/rooms">Rooms</Link>
-          </li>
           {props.loggedUser ? (
             <div className="sign-out">
               <li>

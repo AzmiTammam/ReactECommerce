@@ -94,7 +94,7 @@ function CheckoutForm({setLoggedUser}) {
             required
           />
         </div>
-        <button type='submit' className='checkout-btn'>Confirm Purchase</button>
+        <button type='submit' className='checkout-btn'>Buy</button>
             </form>
         </div>
     )

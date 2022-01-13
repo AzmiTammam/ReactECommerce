@@ -8,7 +8,6 @@ function GamesShop() {
         <div>
         <div>
             <h1 className='featured-games-title'>Our Shop</h1>
-            <hr />
         </div>
         <div className='games-container-home'>
         {games.map((game) => (

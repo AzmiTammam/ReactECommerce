@@ -14,7 +14,7 @@ function Coupon() {
     const handleCouponSubmit = (e) => {
         e.preventDefault();
         if(totalPrice === user.cartItems.reduce((total,item) => total + item.quantity * item.price, 0)){
-            if(couponAmount === "a1997"){
+            if(couponAmount === "azmi10"){
                 setTotalPrice(totalPrice - totalPrice * 0.1)
                 Swal.fire({
                     icon: "success",

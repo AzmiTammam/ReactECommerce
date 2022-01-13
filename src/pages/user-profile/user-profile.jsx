@@ -96,21 +96,6 @@ let navigate = useNavigate()
     }
   };
 
-  const changePassword = async () => {
-    await setPasswordState(!passwordState);
-    changeFocus(passwordInput);
-  };
-
-  const changePasswordValue = () => {
-    loggedUser.password = passwordInput.current.value;
-    localStorage.setItem("loggedUser", JSON.stringify(loggedUser));
-    let filteredUsers = allUsers.filter((data) => data.id !== loggedUser.id);
-    filteredUsers.push(loggedUser);
-    localStorage.setItem("users", JSON.stringify(filteredUsers));
-    setPassword(passwordInput.current.value);
-    setPasswordState(!passwordState);
-  };
-
 
   const handleLogout = () => {
     Swal.fire({
@@ -260,7 +245,6 @@ let navigate = useNavigate()
 
           </div>
 <div className="test-div">
-<h2 ></h2>
           <table className="user-reservations" >
             <thead>
               <tr>
