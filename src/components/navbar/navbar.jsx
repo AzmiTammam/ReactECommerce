@@ -29,11 +29,7 @@ const Navbar = (props) => {
       <div className="nav">
         <div className="navCenter">
           <Link to="/">
-            <img
-              src="https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg"
-              alt="logo"
-              width={200}
-            />
+          <h2>Azmi Store</h2>
           </Link>
         </div>
         <ul className={`${navBarActive ? "activeBurger" : ""} topList`}>
@@ -44,6 +40,11 @@ const Navbar = (props) => {
           </li>
           <li>
             <Link to="/sports">Sports</Link>
+          </li>
+          <li>
+            <Link to="/rooms/Basketball%20Room">
+              Rooms
+            </Link>
           </li>
           {props.loggedUser ? (
             <div className="sign-out">
