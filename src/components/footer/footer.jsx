@@ -3,36 +3,69 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer>
-      <div className="footer-container">
-        <div className="logo-and-icons-container">
-          <p className="footer-Paragraph">
-            Lorem Ipsum is simply dummy text of the
-            <br /> printing and typesetting industry.
-          </p>
-          <div className="footerIcons">
-            <a href="https://twitter.com/">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="https://github.com/">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-        <div className="footer-contactUs">
-          <div className="footer-contact-info">
-            <h1 className="contatUsTitle">Contact US</h1>
-            <p className="contatUsPara">
-               +962XXXXXXXX
-            </p>
-            <p className="contatUsPara">
-               email@example.com
-            </p>
-          </div>
-        </div>
+<div>
+  <div className="container" />
+  <footer>
+    {/* Footer main */}
+    <section className="ft-main">
+      <div className="ft-main-item">
+        <h2 className="ft-title">About</h2>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
       </div>
-      <p className="copyright">All rights reserved Copyright © 2021 </p>
-    </footer>
+      <div className="ft-main-item">
+        <h2 className="ft-title">Resources</h2>
+        <ul>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">eBooks</a></li>
+          <li><a href="#">Webinars</a></li>
+        </ul>
+      </div>
+      <div className="ft-main-item">
+        <h2 className="ft-title">Contact</h2>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+      <div className="ft-main-item">
+        <h2 className="ft-title">Stay Updated</h2>
+        <p>Get free updates before others do!</p>
+        <form>
+          <input type="email" name="email" placeholder="Enter email address" />
+          <input type="submit" defaultValue="Subscribe" />
+        </form>
+      </div>
+    </section>
+    {/* Footer social */}
+    <section className="ft-social">
+      <ul className="ft-social-list">
+        <li><a href="#"><i className="fab fa-facebook" /></a></li>
+        <li><a href="#"><i className="fab fa-twitter" /></a></li>
+        <li><a href="#"><i className="fab fa-instagram" /></a></li>
+        <li><a href="#"><i className="fab fa-github" /></a></li>
+        <li><a href="#"><i className="fab fa-linkedin" /></a></li>
+        <li><a href="#"><i className="fab fa-youtube" /></a></li>
+      </ul>
+    </section>
+    {/* Footer legal */}
+    <section className="ft-legal">
+      <ul className="ft-legal-list">
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li>© 2021 by Meow Media, LLC</li>
+      </ul>
+    </section>
+  </footer>
+</div>
+
   );
 }
 
