@@ -1,6 +1,6 @@
 footer {
-  background-color: #555;
-  color: #bbb;
+  background-color: rgb(32, 32, 32);
+  color: rgb(255, 255, 255);
   line-height: 1.5;
 }
 footer a {
@@ -55,7 +55,7 @@ input[type="email"] {
   margin-top: 0.3125rem;
 }
 input[type="submit"] {
-  background-color: #00d188;
+  background-color: #0071dc;
   color: #fff;
   cursor: pointer;
   border: 0;
@@ -79,7 +79,7 @@ input[type="submit"] {
 
 .ft-legal {
   padding: 0.9375rem 1.875rem;
-  background-color: #333;
+  background-color: rgb(29, 29, 29);
 }
 .ft-legal-list {
   width: 100%;

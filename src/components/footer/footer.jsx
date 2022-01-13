@@ -60,7 +60,7 @@ function Footer() {
       <ul className="ft-legal-list">
         <li><a href="#">Terms &amp; Conditions</a></li>
         <li><a href="#">Privacy Policy</a></li>
-        <li>© 2021 by Meow Media, LLC</li>
+        <li>© 2021 by AzmiTammam</li>
       </ul>
     </section>
   </footer>
