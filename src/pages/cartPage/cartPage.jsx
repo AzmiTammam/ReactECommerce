@@ -1,6 +1,5 @@
 import React from 'react'
 import Cart from '../../components/cart/cart'
-import "./cart-page.css"
 
 function CartPage(props) {
     return (

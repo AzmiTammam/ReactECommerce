@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { useNavigate } from 'react-router-dom'
-import "./checkout-form.css"
+import "./CheckoutForm.css"
 import Swal from 'sweetalert2'
 
 function CheckoutForm({setLoggedUser}) {

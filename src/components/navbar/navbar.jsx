@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { ReactComponent as ShoppingIcon } from "../../assets/shopping-bag.svg";
-import CartDropdown from "../cart-dropdown/cart-dropdown";
+import CartDropdown from "../CartDropdown/CartDropdown";
 
 const NavBar = (props) => {
   const [navBarActive, setNavBarActive] = useState(false);

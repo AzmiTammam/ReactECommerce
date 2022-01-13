@@ -4,14 +4,14 @@ import { Route, Routes } from "react-router-dom";
 import NavBar from './components/navbar/navbar';
 import HomePage from './pages/homepage/homepage';
 import Footer from './components/footer/footer';
-import LoginPage from "./pages/login-page/login-page"
-import RegisterPage from "./pages/register-page/register-page"
-import GamesPage from './pages/games-page/games-page';
-import DetailedGame from './components/detailed-game/detailed-game';
-import games from './data/games/games';
-import CartPage from './pages/cart-page/cart-page';
-import CheckoutPage from './pages/checkout-page/checkout-page';
-import Userprofile from './pages/user-profile/user-profile';
+import LoginPage from "./pages/loginPage/loginPage"
+import RegisterPage from "./pages/registerPage/registerPage"
+import GamesPage from './pages/shopPage/shopPage';
+import DetailedGame from './components/DataProduct/DataProduct';
+import games from './data/Products/dataArray';
+import CartPage from './pages/cartPage/cartPage';
+import CheckoutPage from './pages/checkoutPage/checkoutPage';
+import Userprofile from './pages/ProfileUsers/ProfileUsers';
 
 
 function App() {

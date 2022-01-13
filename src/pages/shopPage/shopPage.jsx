@@ -1,10 +1,10 @@
 import React from 'react'
-import GamesShop from '../../components/games-in-shop/games-in-shop'
+import Shop from '../../components/Shop/shop'
 
 function GamesPage() {
     return (
         <div>
-            <GamesShop />
+            <Shop />
         </div>
     )
 }

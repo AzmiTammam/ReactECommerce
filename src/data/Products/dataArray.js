@@ -1,4 +1,4 @@
-const games = [
+const dataArray = [
   {
     id: 1,
     title: "Soccer",
@@ -65,4 +65,4 @@ const games = [
   },
 ];
 
-export default games;
+export default dataArray;

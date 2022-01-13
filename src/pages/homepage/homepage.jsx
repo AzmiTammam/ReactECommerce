@@ -1,5 +1,5 @@
 import React from 'react'
-import FeaturedGames from '../../components/featured-games/featured-games'
+import FeaturedGames from '../../components/FeaturedProduct/FeaturedProduct'
 import HeroImage from '../../components/hero-img/hero-img'
 
 function HomePage() {

@@ -1,6 +1,6 @@
 import React from 'react'
-import "./featured-games.css"
-import games from '../../data/games/games'
+import "./FeaturedProduct.css"
+import games from '../../data/Products/dataArray'
 import {Link} from "react-router-dom"
 
 function FeaturedGames() {

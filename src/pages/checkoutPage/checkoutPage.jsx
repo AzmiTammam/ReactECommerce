@@ -1,6 +1,6 @@
 import React from 'react'
-import CheckoutForm from '../../components/checkout-form/checkout-form'
-import "./checkout-page.css"
+import CheckoutForm from '../../components/CheckoutForm/CheckoutForm'
+import "./checkoutPage.css"
 
 function CheckoutPage({setLoggedUser}) {
     return (

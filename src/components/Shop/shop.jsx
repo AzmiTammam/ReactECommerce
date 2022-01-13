@@ -1,9 +1,9 @@
 import React from 'react'
-import "./games-in-shop.css"
-import games from '../../data/games/games'
+import "./shop.css"
+import games from '../../data/Products/dataArray'
 import {Link} from "react-router-dom"
 
-function GamesShop() {
+function Shop() {
     return (
         <div>
         <div>
@@ -29,4 +29,4 @@ function GamesShop() {
     )
 }
 
-export default GamesShop
+export default Shop
