@@ -1,5 +1,5 @@
 import React from 'react'
-import "./cart-dropdown-item.css"
+import "./cartDropdownItem.css"
 
 function CartDropDownItem({item}) {
     return (

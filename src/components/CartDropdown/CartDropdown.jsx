@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./CartDropdown.css"
 import { Link } from 'react-router-dom'
-import CartDropDownItem from '../cart-dropdown-item/cart-dropdown-item'
+import CartDropDownItem from '../cartDropdownItem/cartDropdownItem'
 
 const CartDropdown = (props) => {
     const [user,setUser] = useState(JSON.parse(localStorage.getItem("loggedUser")));

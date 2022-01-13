@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./cart.css"
 import {Link} from "react-router-dom"
-import CartItem from '../cart-item/cart-item'
+import CartItem from '../cartItem/cartItem'
 
 function Cart({setLoggedUser}) {
     const [user,setUser] = useState(JSON.parse(localStorage.getItem("loggedUser")));

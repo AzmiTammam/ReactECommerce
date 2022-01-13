@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import "./cart-item.css"
+import "./cartItem.css"
 
 function CartItem({cartItem,removeItem,addToCart,decreaseQuantity}) {
     const {title, image, price,quantity} = cartItem;      

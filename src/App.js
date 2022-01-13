@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar/navbar';
 import HomePage from './pages/homepage/homepage';
-import Footer from './components/footer/footer';
+import Footer from './components/Footer/Footer';
 import LoginPage from "./pages/loginPage/loginPage"
 import RegisterPage from "./pages/registerPage/registerPage"
 import GamesPage from './pages/shopPage/shopPage';
