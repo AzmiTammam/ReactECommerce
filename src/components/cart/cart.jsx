@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import "./cart.css"
-import {Link} from "react-router-dom"
+import "./Cart.css"
+import { Link } from "react-router-dom"
 import CartItem from '../cartItem/cartItem'
 
 function Cart({setLoggedUser}) {
