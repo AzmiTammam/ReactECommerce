@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import {ReactComponent as Logo} from "../../assets/logo_g2a_white.svg";
 
 function Footer() {
   return (
